@@ -6,17 +6,17 @@
     width: 100%;
 }
 
-.NavBar_Main,{
-    position: fixed;
+.NavBar_Main{
+    position: absolute;
     width: 100%;
     height: 20%;
     bottom: 0px;
     left: 0px;
     opacity: 0.3;}
 .NavBar_BG{
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 20%;
+    height: 100%;
     bottom: 0px;
     left: 0px;
     opacity: 1;}
@@ -31,6 +31,31 @@
     margin-top: -50px;
     opacity: 1;
 }
+
+.NavItem{
+    margin-left: -50px;
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    background: red;
+}
+.NavItem:nth-child(2){left: 13%;}
+.NavItem:nth-child(3){left: 29%;}
+.NavItem:nth-child(4){left: 45%;}
+.NavItem:nth-child(5){left: 61%;}
+.NavItem:nth-child(6){left: 77%;}
+
+.NavText{
+    width: 100px;
+    height: 30px;
+    top:0px;
+    margin-top: 20px;
+    background: green;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
 .circle{
     animation:circleOut 2s infinite;
     position: absolute;
@@ -100,7 +125,7 @@
     top: 20%;
     width: 5%;
     height: 60%;
-    opacity: 1;
+    opacity: 0.4;
 }
 #RButton{
     position: absolute;
@@ -108,7 +133,7 @@
     top: 20%;
     width: 5%;
     height: 60%;
-    opacity: 1;
+    opacity: 0.4;
 }
 .LB_Element{
     height: 100%;
@@ -135,5 +160,9 @@
 .RB_Element:nth-child(2){-webkit-animation-delay: 0.1s; animation-delay: 0.1s;width: 20%;right: 50%;}
 .RB_Element:nth-child(3){-webkit-animation-delay: 0.2s; animation-delay: 0.2s;width: 40%;right: 0%;}
 
+.NavPoint{
+    width: 1%;
 
+
+}
 

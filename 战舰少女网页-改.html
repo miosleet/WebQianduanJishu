@@ -13,15 +13,14 @@
     <div class="container" id="container"> 
         <!--DO NOT CHANGE DIV"BG"-->
         <div id="bg" ><div id="pageMask"></div></div>
-
         <!--copy div"page" as new page-->
         <div class="myPage">
-            
+            <div style="background:red; width:calc(100% - 50px); height:calc(100% - 50px);"></div>
         </div>
 
-        
         <!--DO NOT CHANGE DIV"COMMON"-->
         <div class="common">
+            
             <div id="LButton">
                     <div class=LB_Element></div>
                     <div class=LB_Element></div>
@@ -45,32 +44,41 @@
                     <div class="arrow"></div>
                 </div>
             </div>
-            
-            
+            <div class="NavBar_Main" id="NavBar" onmouseover="opaque(this)" onmouseout="de_opaque(this)">
+                <img src=".\PIC\WaveNavBar.png" alt="" class="NavBar_BG" >
+                <div class="NavItem">
+                    <div class="NavPoint"></div>
+                    <div class="NavPoint"></div>
+                    <a href="#"><div class="NavText"></div></a>
+                </div>
+                <div class="NavItem">
+                    <div class="NavPoint"></div>
+                    <div class="NavPoint"></div>
+                    <a href="#"><div class="NavText"></div></a>
+                </div>
+                <div class="NavItem">
+                    <div class="NavPoint"></div>
+                    <div class="NavPoint"></div>
+                    <a href="#"><div class="NavText"></div></a>
+                </div>
+                <div class="NavItem">
+                    <div class="NavPoint"></div>
+                    <div class="NavPoint"></div>
+                    <a href="#"><div class="NavText"></div></a>
+                </div>
+                <div class="NavItem">
+                    <div class="NavPoint"></div>
+                    <div class="NavPoint"></div>
+                    <a href="#"><div class="NavText"></div></a>
+                </div>
+                <div id="NavBarMask" ></div>
 
-            <div class="NavBar_Main" id="NavBar" style="opacity: 0.35;">
-                <img src=".\PIC\WaveNavBar.png" alt="" class="NavBar_BG" onmouseover="opaque(this)" onmouseout="de_opaque(this)">
+
             </div>
+
             
         </div>
-
-    
-    
-        
     </div>
-
-
-
-
-
-
-    
-
-
-
-
-
-
 
 </body>
 

@@ -1,12 +1,13 @@
 //responce func of chage opacity
 var container,containerHeightStr,containerHeight,containerWidthStr,containerWidth;
 
-function opaque(x){
+function opaque(e){
     changeOpacityByTime(30,100);
+    NavBarItemAppear();
     //alert("aaa");
 }
 //responce func of chage opacity
-function de_opaque(x){
+function de_opaque(e){
     changeOpacityByTime(100,30);
     //alert("bbb");
 }
@@ -36,7 +37,7 @@ function changeOpacityByTime(istart,iTarget){
 
 }
 
-//change opacity of "alert" icon
+//change opacity of "alert" icon and L/R button
 var mouseY,mouseX,shiftMouseY,mouseXProprotion,alertOpacity,LBOpacity,RBOpacity;
 var NavBarAlert,LButton,RButton;
 document.onmousemove=function changeOpacityByMousePos(e){
@@ -57,7 +58,7 @@ document.onmousemove=function changeOpacityByMousePos(e){
     mouseX=e.pageX;
     mouseY=+containerHeight-e.pageY;
     shiftMouseY=mouseY-100;
-    //console.log(containerWidth +","+containerHeight +","+mouseX+","+mouseY );
+    console.log(containerWidth +",  "+containerHeight +",  "+mouseX+",  "+mouseY );
 
     //calc NavBar
     if(shiftMouseY<0)shiftMouseY=0;
@@ -75,8 +76,15 @@ document.onmousemove=function changeOpacityByMousePos(e){
     else {LBOpacity=0.4;RBOpacity=0.4}
     LButton.style.opacity=LBOpacity;
     RButton.style.opacity=RBOpacity;
+    console.log(mouseXProprotion);
 
 
 
     //console.log(alertOpacity);
 }
+
+function NavBarItemAppear(){
+
+
+}
+
