@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:black;
+}
+
+#ggdaohang{
+	position:absolute;
+	left:100px; 
+	top:30px; 
+	width:1320px; 
+	height:30px;   
+	background:black; 
+	border:1px solid #777777;
+}
+
+#ggdaohanganniu1{
+	position:absolute;
+	left:1080px; 
+	top:0px; 
+	width:60px; 
+	height:25px;
+	color:#777777;
+	text-align:center;
+	background:black;
+    padding: 5px 0px 0px 0px;
+}
+
+#ggdaohanganniu1:active,#ggdaohanganniu1:hover{
+    color: #000;
+    background-color: #2bf;
+}
+
+#ggdaohanganniu2{
+	position:absolute;
+	left:1140px; 
+	top:0px; 
+	width:60px; 
+	height:25px;
+	color:#777777;
+	text-align:center;
+	background:black;
+    padding: 5px 0px 0px 0px;
+}
+
+#ggdaohanganniu2:active,#ggdaohanganniu2:hover{
+    color: #000;
+    background-color: #2bf;
+}
+
+#ggdaohanganniu3{
+	position:absolute;
+	left:1200px; 
+	top:0px; 
+	width:60px; 
+	height:25px;
+	color:#777777;
+	text-align:center;
+	background:black;
+    padding: 5px 0px 0px 0px;
+}
+
+#ggdaohanganniu3:active,#ggdaohanganniu3:hover{
+    color: #000;
+    background-color: #2bf;
+}
+
+#ggdaohanganniu4{
+	position:absolute;
+	left:1260px; 
+	top:0px; 
+	width:60px; 
+	height:25px;
+	color:#777777;
+	text-align:center;
+	background:black;
+    padding: 5px 0px 0px 0px;
+}
+
+#ggdaohanganniu4:active,#ggdaohanganniu4:hover{
+    color: #000;
+    background-color: #2bf;
+}
+
+
+#ggbanner{
+	position:absolute;
+	left:100px; 
+	top:90px; 
+	width: 1320px;    
+	height: 250px;    
+	border: 1px solid #777777;           
+}
+
+#ggbannertu{
+	position:absolute;
+	width: 1320px;    
+	height: 250px;    
+	border: 0px solid #777777;           
+}
+#ggbannerb1{
+	position:absolute;
+	left:520px; 
+	top:240px; 
+	width: 80px;    
+	height: 10px;
+	background: #999;
+	border: 0px solid #777777;           
+}
+#ggbannerb2{
+	position:absolute;
+	left:610px; 
+	top:240px; 
+	width: 80px;    
+	height: 10px;
+	background: #999;
+	border: 0px solid #777777;           
+}
+#ggbannerb3{
+	position:absolute;
+	left:700px; 
+	top:240px; 
+	width: 80px;    
+	height: 10px;
+	background: #999;
+	border: 0px solid #777777;           
+}
+#ggbannerb1:active,#ggbannerb1:hover,
+#ggbannerb2:active,#ggbannerb2:hover,
+#ggbannerb3:active,#ggbannerb3:hover{
+	background: #efefef;         
+}
+
+#ggdakuai1{
+	position:absolute;
+	left:100px; 
+	top:340px; 
+	width: 1320px;    
+	height: 150px;    
+	border: 1px solid #777777;           
+}
+#ggdakuai2{
+	position:absolute;
+	left:100px; 
+	top:490px; 
+	width: 1320px;    
+	height: 150px;    
+	border: 1px solid #777777;           
+}
+#ggxiaokuai1,#ggxiaokuai4{
+	display: inline;
+	position:absolute;
+	left:0px; 
+	width: 440px;    
+	height: 150px;
+	border: 1px solid #777777;                
+}
+
+#ggxiaokuai2,#ggxiaokuai5{
+	display: inline;
+	position:absolute;
+	left:440px; 
+	width: 440px;    
+	height: 150px;
+	border: 1px solid #777777;     
+}
+#ggxiaokuai3,#ggxiaokuai6{
+	display: inline;
+	position:absolute;
+	left:880px; 
+	width: 440px;    
+	height: 150px;
+	border: 1px solid #777777;     
+}
+
+.ggxklx{
+	position:absolute;
+	left:20px;
+	top:10px;
+	width: 400px;    
+	height: 50px;     
+}
+.ggxknr{
+	position:absolute;
+	left:20px;
+	top:60px;
+	width: 400px;    
+	height: 50px;     
+}
+.ggxkb{
+	position:absolute;
+	left:300px;
+	top:120px;
+	width: 100px;    
+	height: 20px;     
+}
+.ggxkbutton{
+	width: 100px;    
+	height: 20px;
+	background: #2bf;
+	border: 0px solid #777777;
+	
+}
+h3{
+	color:#2bf;
+	font-family:"等线"
+}
+p{
+	color:#fff;
+	font-family:"等线"
+}

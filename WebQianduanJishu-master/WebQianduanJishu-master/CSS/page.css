@@ -1,0 +1,77 @@
+.container{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+    background-position: 100%;
+    z-index: -2;
+    background-image: url(../PIC/BG/S4.png);
+}
+
+#pageMask{
+    position: fixed;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    width: 90%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-color: rgba(250, 220, 120, 0.5);
+    background-size: cover;
+    background-position: 100%;
+
+}
+
+.myPage{
+    position: static;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    bottom: 10%;
+    width: 90%;
+    height: 80%;
+    left: 0px;
+    top: 0px;
+    
+}
+.download{
+    /*position: fixed;*/
+    margin-bottom: 20%;
+    width: 30%;
+    height: 80%;
+}
+.downloadleft{
+    position: fixed;
+    display: inline-block;
+    margin-left: 0%;
+    width: 30% 
+    height:100%;
+}
+.downloadright{
+    position: fixed;
+    display: inline-block;
+    margin-left: 50%;
+    margin-bottom: 20%;
+    width: 50% ;
+    height:200%;
+}
+.downloadtype{
+    position: relative;
+    margin-top: 5%;
+    width: 80%;
+    height: 15%;
+    background-color: rgba(37, 155, 255, 0.5);
+    border-radius: 40px;
+}

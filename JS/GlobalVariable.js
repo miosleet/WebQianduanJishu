@@ -1,0 +1,1 @@
+var currentShowDiv=document.getElementById("CharaPage");
